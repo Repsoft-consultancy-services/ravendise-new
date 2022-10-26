@@ -46,10 +46,10 @@
   content: "";
   position: fixed;
   z-index: 100;
-  top: 50%;
-  left: 50%;
-  width: 40px;
-  height: 44px;
+  top: 45%;
+  left: 45%;
+  width: 200px;
+  height: 200px;
   margin: -20px 0 0 -20px;
   pointer-events: none;
   opacity: 1;
@@ -57,7 +57,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
-  animation: scale-rotate-animation 2s ease-in infinite alternate forwards;
+  /* animation: scale-rotate-animation 2s ease-in infinite alternate forwards; */
 }
 
 .preloader.loaded {
